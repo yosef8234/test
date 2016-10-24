@@ -1,0 +1,17 @@
+Knowledge Check 3.1
+What is the minimum amount of RAM that is recommended when deploying an all-in-one machine with DevStack? Please select the correct answer from the dropdown list below.
+*4GB
+
+Knowledge Check 3.2
+On which of the following distributions can you use PackStack de deploy OpenStack? Please select all the answers that apply - there may be more than one!
+Ubuntu
+*Fedora
+*CentOS
+Debian
+
+Knowledge Check 3.3
+Which of the following deployment methods cannot be used on CentOS?
+PackStack
+*Crowbar
+DevStack
+Director

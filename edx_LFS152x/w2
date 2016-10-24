@@ -1,0 +1,17 @@
+Knowledge Check 2.1
+Which of the following is not a responsibility of the Nova project?
+*Provide a hypervisor
+Schedule instances to run on a compute node
+Start and stop instances
+Organize Live Migrations
+
+Knowledge Check 2.2
+Which OpenStack project is responsible for block storage? Please select the correct answer from the dropdown list below.
+*Cinder
+
+Knowledge Check 2.3
+Which OpenStack project defines the OpenStack shared file system?
+Ceph
+Glance
+*Manila
+Sahara
