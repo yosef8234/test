@@ -1,0 +1,20 @@
+Knowledge Check 5.1
+Which of the following statements about the "openstack" command is NOT correct?
+*The "openstack" command can be used in the Mitaka release to manage all aspects of OpenStack
+The "openstack" command is written in Python
+To manage networking, you can use either the "neutron" command, or the "openstack" command
+The "openstack" command is the preferred command to use when managing OpenStack from the command line
+
+Knowledge Check 5.2
+Which of the following statements about floating IP addresses is correct?
+Every instance needs a floating IP address
+Floating IP addresses are available without limits
+A floating IP address is managed through Nova
+*From the instance command line you cannot find the floating IP address it is using
+
+Knowledge Check 5.3
+When booting instances, some steps are mandatory, some are not. Which of the following is NOT a required step to boot an instace?
+Provide a flavor
+*Provide a floating IP address
+Provide an image
+Provide networking information

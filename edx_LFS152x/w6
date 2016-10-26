@@ -1,0 +1,13 @@
+Knowledge Check 6.1
+You can use Object Storage to make storage flexible. Which of the following is the OpenStack solution for object storage?
+*Swift
+Glance
+Cinder
+Ceph
+
+Knowledge Check 6.2
+Continuous availability of critical resources in OpenStack is important for many services. Which of the following components of an OpenStack cloud does not need additional protection through High Availability?
+The MariaDB database
+The AMQP service
+The Nova controller
+*The Nova compute node

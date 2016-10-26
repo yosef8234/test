@@ -1,0 +1,20 @@
+Knowledge Check 4.1
+When creating an instance, which of the following steps is not mandatory, assuming that you also want to be able to establish remote connections to the instance?
+Make sure that networking has been configured
+*Attach a Cinder volume to the instance
+Make sure a Glance image is available
+Create a security group
+
+Knowledge Check 4.2
+When creating an instance, most tasks need to be performed as the tenant user. However, some tasks must be performed as the cloud administrator. Which are the tasks that must be performed as cloud administrator?
+*Mark the external network as an external network
+Create a Glance image
+Configure the DHCP server
+Configure the Cinder volumes
+
+Knowledge Check 4.3
+Which of the following statements about floating IP addresses is true?
+Every instance needs a floating IP address
+Only the cloud administrator can assign floating IP addresses
+*Floating IP addresses are unknown by the instance itself correct
+Floating IP addresses are assigned by a DHCP server

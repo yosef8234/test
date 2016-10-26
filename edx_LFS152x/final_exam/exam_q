@@ -1,1 +1,64 @@
-maybe
+Question 1
+Which of the following OpenStack services defines Block Storage?
+A. Glance
+*B. Cinder
+C. Manilla
+D. Ceph
+
+Question 2
+Which of the following commands can be used to get an overview of the currently running OpenStack services?
+A. openstack-service
+B. openstack-list
+*C. openstack-status
+D. openstack services
+
+Question 3
+Which of the commands below gives the correct syntax for adding a Glance image to the data base?
+*A. glance image-create --name small --min-disk 2 --disk-format qcow2 --container-format bare --file /root/cirros.img --progress
+B. glance image create --name small --min disk 2 --disk format qcow2 --container format bare --file /root/cirros.img --progress
+C. openstack image-create --name small --min-disk 2 --disk-format qcow2 --container-format bare --file /root/cirros.img --progress
+D. openstack image create --name small --min-disk 2 --disk-format qcow2 --container-format bare --download from http://my.website.com/myimage.img
+
+Question 4
+Which of the following vendors does NOT offer an OpenStack distribution?
+A. VMware
+B. HP
+C. SUSE
+*D. Microsoft
+
+Question 5
+An administrator wants to check the configuration of networking devices on a server that does not have any SDN configuration yet. The "ovs-vsctl status" command will show this information. True or False?
+True
+*False
+
+Question 6
+An administrator wants to add a new compute node on a CentOS installation of OpenStack that has been generated with PackStack. The administrator is planning to set the "NOVA_COMPUTE_HOSTS" parameter to include the IP address of the new compute node. After running the "packstack" command again, the current configuration of any existing nodes will still be functional and unmodified. True or False?
+True
+*False
+
+Question 7
+Which of the following commands will show currently running instances, assuming that the appropriate credentials have been loaded?
+A. nova instance list
+*B. nova list
+C. openstack instance list
+D. openstack instance-list
+
+Question 8
+Which of the following statements about OpenStack Scalability is NOT true?
+A. Networking can be scaled out using the Neutron project
+B. To scale out Cinder storage, an object storage backend can be used
+*C. Heat is used for advanced OpenStack metering
+D. To scale out the number of hypervisors, Nova compute nodes can be added easily
+
+Question 9
+In Software Defined Networking, the network that is defined logically in the tenant environment is known as the Overlay Network. True or False?
+*True
+False
+
+Question 10
+Which command will show currently running instances, as well as the Nova Compute node that they are running on?
+https://wiki.openstack.org/wiki/NovaManage
+*A. nova-manage vm list
+B. nova vm list
+C. nova list
+D. nova instance list
