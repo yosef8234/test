@@ -62,3 +62,212 @@ https://wiki.openstack.org/wiki/NovaManage
 B. nova vm list
 C. nova list
 D. nova instance list
+
+Question 11
+Which of the following statements about OpenStack High Availability is NOT true?
+A. For all API services, load balancing can be used
+B. MariaDB database High Availability can be organized by using the Galera service
+*C. High Availability of instances is organized through the Linux generic Pacemaker solution
+D. Some AMQP services benefit from an internal High Availability solution by using mirrored queues
+
+Question 12
+OpenStack credential files are used to supply credentials that are needed for running command line utilities. Which of the following parameters is NOT essential in such a credential file?
+A. OS_USERNAME
+B. OS_PASSWORD
+*C. OS_ENDPOINT
+D. OS_TENANT_NAME
+
+Question 13
+The mission of the Oslo project is to provide standardized shared libraries that lead to a greater uniformity in the OpenStack command line utilities.
+*True
+False
+
+Question 14
+Which of the following statements about downloading a Glance image is true?
+A. The "--download-from" option is available in recent versions of OpenStack to download the image directly from the Internet
+*B. The "glance" command does NOT have a download option in recent versions of OpenStack, which is why the image must be downloaded separately, before it can be inserted in the OpenStack database
+
+Question 15
+Different services are involved in OpenStack networking through the Neutron project. Which of the below services will not be present if the administrator decides to use the (legacy) Linux Bridge networking plugin?
+A. neutron-dhcp-agent
+B. neutron-openvswitch-agent
+C. neutron-l3-agent
+D. neutron-lbaas-agent
+
+Question 16
+Which of the following statements about network namespaces is true?
+A. A namespace will be created for each tenant
+*B. A namespace will be created for each network that is defined in software
+C. Network namespaces are an optional component and will be created at the discretion of the network administrator
+D. The best node to analyze namespace working would be the Nova compute node
+
+Question 17
+A minimal multi-node OpenStack implementation will contain different node roles. Which of the following is the least likely node type to occur in a generic OpenStack deployment where 6 physical servers are used?
+*A. An object storage node correct
+B. A network controller node
+C. A controller node
+D. A compute node
+
+Question 18
+While setting up networking from the command line, different commands are used. These commands need to be deployed in a specific order. Which of the following summarizes the best order for entering the following commands?
+
+1. neutron router-create
+2. neutron router-interface-add
+3. neutron subnet-create
+4. neutron net-create
+
+A. 1,2,3,4
+*B. 4,3,1,2
+C. 3,4,1,2
+D. 2,1,4,3
+
+Question 19
+An OpenStack administrator wants to deploy virtual machines that run a web server. For this purpose, custom security groups must be used, as the default security group doesn't offer sufficient features. Is this statement true or false?
+*True
+False
+
+Question 20
+Which of the following commands reflects the correct syntax to add a rule to a security group that opens the SSH port to any user that can connect?
+A. nova secgroup add-rule mysecgroup tcp 22 22 0.0.0.0/0
+B. nova secgroup rule-add mysecgroup tcp 22 0.0.0.0/0
+C. nova secgroup-rule add mysecgroup tcp 22 22 0.0.0.0
+*D. nova secgroup-add-rule mysecgroup tcp 22 22 0.0.0.0/0
+
+Question 21
+While booting an instance from the command line, the tenant user needs to indicate which network is used by the instance. Which of the following statements correctly identifies what needs to be done?
+A. The tenant user can use the name of the network that was used when creating the network
+B. The tenant user can use the name of the subnet that was used when creating the subnet
+*C. The tenant user should use the "nova net-list" command to find the ID of the network and use that while booting the instance (looks like they mean neutron net-list)
+D. The tenant user should use the "nova subnet-list" command to find the ID of the subnet and use that while booting the instance
+
+Question 22
+Which of the following components is not a mandatory one for booting an instance?
+*A. A Cinder volume
+B. A flavor
+C. A Glance image
+D. A network ID
+
+Question 23
+After launching an instance, a user cannot access it using SSH keys. Which of the following is NOT a possible reason why the instance is not accessible?
+A. No floating IP address has been assigned to the instance
+B. The user doesn't have access to the SSH private key
+C. Wrong permissions are applied to the SSH private key
+*D. There is no IP route to the instance private IP address
+
+Question 24
+Using network namespaces is very convenient for troubleshooting instance access. Which of the following commands is used to get an overview of network namespaces on a specific node?
+A. neutron netns list
+B. nova netns list
+*C. ip netns list
+d. neutron netns show
+
+Question 25
+When configuring the tenant environment, some tasks can not be performed by a user that has assigned the "_member_" role to a tenant. Which of the following would require administrator privileges?
+*A. Marking a network as an external network
+B. Creating a router
+C. Creating a network
+D. Creating a subnet
+
+Question 26
+A tenant is an administrative entity in OpenStack, to which users, groups of users and services are assigned. It is used as an administrative entity and can be used to create an isolated environment for a customer that wants to host his IT resources in a public cloud. True or false?
+*True
+False
+
+Question 27
+Which of the following statements best describes floating IP addresses?
+A. A floating IP address is assigned by a DHCP server on the public network
+B. Floating IP addresses are automatically assigned when starting an instance
+C. Floating IP addresses are typically allocated from a private network
+*D. When using the "ip" command on an instance console, you will not see the floating IP address that it is using
+
+Question 28
+Which of the following statements about Openstack is NOT true?
+A. By default, storage is ephemeral
+B. Cinder storage is used to assign persistent volumes to an instance
+*C. Images can be stored in either Cinder or Glance storage
+D. Object storage is used to make cloud storage scalable in OpenStack
+
+Question 29
+An administrator wants to set up a large-scale OpenStack deployment. Which of the following services would be most appropriate to do this?
+*A. Triple O
+B. PackStack
+*C. Ironic
+*D. Director
+E. DevStack
+
+Question 30
+An administrator wants to learn OpenStack. He or she needs easy access to stable OpenStack software. Which deployment method would you recommend for this administrator?
+A. DevStack
+B. Ironic
+C. Director
+*D. PackStack
+
+Question 31
+Which of the following statements about DevStack is NOT true?
+*A. It is recommended to use in a production environment
+B. It runs on multiple distributions, including Debian, OpenSUSE and Ubuntu
+C. It is very popular among developers
+D. When using the default configuration, it sets up an All-in-One OpenStack deployment
+
+Question 32
+When using DevStack for OpenStack deployment, different scripts and configuration files are typically created after using the "git clone" command to copy the DevStack binaries to the local host. Which of the following is by default the name of the configuration file that contains critical parameters such as the admin password and the database password that are to be used?
+A. answers.txt
+B. devstack.conf
+C. stack.conf
+*D. local.conf
+
+Question 33
+In which year was the OpenStack project started?
+A. 2009
+*B. 2010
+C. 2011
+D. 2012
+
+Question 34
+In OpenStack, some projects are considered core projects, as they are used in most OpenStack deployments. Which of the following is not a part of the core projects?
+A. Nova Compute
+B. Cinder Block Storage
+C. Glance Image
+*D. Heat Orchestration
+
+Question 35
+Apart from the typical OpenStack projects, every OpenStack deployment needs some critical services to be configured and operational. Which of the following is not a part of these critical services?
+*A. An Identity store
+B. A relational database
+C. A message queue
+D. An NTP time service
+
+Question 36
+In OpenStack, different projects address the need to store files. Which of the following is NOT an official OpenStack project?
+A. Swift
+*B. Ceph
+C. Manilla
+D. Cinder
+
+Question 37
+What is the name of the OpenStack project that takes care of identity-related issues?
+A. MariaDB
+B. Active Directory
+*C. Keystone
+D. Nova
+
+Question 38
+What is the name of the OpenStack project that offers DataBase as a Service?
+*A. Trove
+B. Sahara
+C. Multitude
+D. Manilla
+
+Question 39
+Which of the following projects is used for integration of Docker containers in OpenStack?
+A. Trove
+*B. Magnum
+C. Manilla
+D. Designate
+
+Question 40
+What is the purpose of the Sahara project?
+A. Integration of DNS in OpenStack
+B. Integration of Policy in OpenStack
+*C. Integration of Big Data in OpenStack
+D. Standardizing OpenStack development
