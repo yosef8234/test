@@ -1,0 +1,7 @@
+In this assignment we will look into using lists and using them as data for the templates.
+
+The assignment has the server side functionality that handles a request to the root path and adds a list for processing for Thymeleaf. The template that is used to create the site is missing some functionality however.
+
+Your task is to (1) print the values in the list using the th:each-attribute that we saw previously, and (2) add a form that can be used to send content to the server.
+
+Once finished, submit the assignment to the TMC server.

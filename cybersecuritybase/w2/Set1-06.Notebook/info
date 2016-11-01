@@ -1,0 +1,3 @@
+Implement a notebook application to the class NotebookController in the package sec.notebook and the template index.html. The notebook application should list the existing notes and allow adding new notes. If there are more than 10 notes, the application should only show the ten most recent ones.
+
+Once finished, submit the assignment to the TMC server.

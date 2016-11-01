@@ -1,0 +1,8 @@
+Assignment 2: Hello Web!
+In this assignment, you will familiarize yourself with the very basic functionality of the web framework, and will create an application that returns a "Hello Web!" response to the user.
+
+The assignment template contains a few files. The file HelloWebApplication is used to launch the web application, and the file HelloWebController is used to create the response to the user. Modify the class HelloWebController so that the user will receive the text "Hello Web!" when he or she sends a request to the server.
+
+Note that you may have to download the dependencies that the framework uses. In NetBeans, this can be done by selecting the Dependencies, and selecting "Download Declared Dependencies".
+
+Once finished, submit the assignment to the TMC server.

@@ -1,0 +1,18 @@
+Scanning...
+Use your newly implemented port scanner to scan the ports between 20050 and 20150 at the address sec-mooc-1.cs.helsinki.fi -- the range has been limited to avoid a note from your ISP.
+Some of these ports have a program running on them. Once you have figured out the ports with programs, you can visit each one of them to see if there is any meaningful content. For example, you could visit the port 20050 by typing the address sec-mooc-1.cs.helsinki.fi:20050 to your browser and see what happens -- nothing.
+The ports contain a secret message. What is it about?
+Haddaway's What is Love on eight floppy drives.
+Lifestyle associated with the Gangnam District of Seoul.
+"Best Act Ever" by Internet users at the MTV Europe Music Awards 2008.
+A YouTube Channel where stuff gets dismantled with a Hydraulic press.
+
+=====
+
+On the protocol of a service...
+There is a service at the port 31338 of the server sec-mooc-1.cs.helsinki.fi. The protocol starts with you writing the message "HMM?" to the server. Determine the rest of the protocol.
+When following the correct protocol, how many messages do you receive from the server? You may assume that the server writes "Incorrect protocol. Bye." if you do not follow the correct protocol.
+1
+2
+3
+4

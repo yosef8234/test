@@ -1,0 +1,44 @@
+Assignment 3: Calculator
+
+Handing dependencies in Maven
+
+Maven projects handle dependencies based on the configuration file pom.xml, which can be found in the project root. For example, in the previous assignment, the configuration file as a whole was as follows.
+
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>wad</groupId>
+    <artifactId>03.Calculator</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <packaging>jar</packaging>
+
+    <... properties .../>
+
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>1.4.1.RELEASE</version>
+    </parent>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
+        </dependency>
+
+        <!-- TMC -->
+        <dependency>
+            <groupId>fi.helsinki.cs.tmc</groupId>
+            <artifactId>edu-test-utils</artifactId>
+            <version>0.4.2</version>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
+
+    <... repositories .../>
+</project>
+It contains information on both the Spring framework that we are using as well as on the Test My Code -server specific components. If we would want to add new dependencies -- i.e. libraries that contain code that we wish to utilize -- we would add the dependencies within the <dependencies>-element. When working with Test My Code however, adding new dependencies has been disabled.

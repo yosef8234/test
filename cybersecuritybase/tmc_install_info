@@ -1,0 +1,10 @@
+# Installation
+https://github.com/testmycode/tmc-cli
+
+# Linux
+wget https://github.com/testmycode/tmc-cli/releases/download/0.8.1/tmc -O tmc
+chmod u+x tmc
+
+# Win
+wget https://github.com/testmycode/tmc-cli/releases/download/0.8.1/tmc-cli-0.8.1.jar -O tmc-cli-0.8.1.jar
+echo 'alias tmc="java -jar ~/tmc-cli-0.8.1.jar"' > .extra
