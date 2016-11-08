@@ -1,0 +1,6 @@
+# Retrieve validation’s password and get out of this jail.
+
+Welcome to my Python sandbox! Everything is in exit() function (arg == get the flag!)
+
+print(exit.func_code.co_consts)
+x = exit.func_code.co_consts[1]
