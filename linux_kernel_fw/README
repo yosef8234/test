@@ -1,0 +1,5 @@
+Simple intercept traffic with Netfilter
+
+$ make
+$ sudo insmod fw.ko
+$ sudo rmmod fw
