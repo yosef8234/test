@@ -231,5 +231,129 @@ my_class.set_private_attr(attr)
 print(my_class._MyClass__private_attr) #7
 
 # Trick #24
+# Print the file path of imported modules.
+>>> import threading
+>>> import socket
+>>> print(threading)
+<module 'threading' from '/usr/lib/python2.7/threading.pyc'>
+>>> print(socket)
+<module 'socket' from '/usr/lib/python2.7/socket.pyc'>
+
 # Trick #25
+# USE INTERACTIVE “_” OPERATOR.
+>>> 2 + 1
+3
+>>> _
+3
+>>> print _
+3
+
 # Trick #26
+# DICTIONARY/SET COMPREHENSIONS.
+>>> testSet = {i * 2 for i in xrange(10)}
+>>> testDict = {i: i * i for i in xrange(10)}
+>>> print(testSet)
+set([0, 2, 4, 6, 8, 10, 12, 14, 16, 18])
+>>> print(testDict)
+{0: 0, 1: 1, 2: 4, 3: 9, 4: 16, 5: 25, 6: 36, 7: 49, 8: 64, 9: 81}
+
+# Trick #27
+# COMBINING MULTIPLE STRINGS.
+>>> test = ['I', 'Like', 'Python', 'automation']
+>>> print ' '.join(test)
+I Like Python automation
+
+# Trick #28
+# PLAY WITH ENUMERATION.
+>>> testlist = [10, 20, 30]
+>>> for i, value in enumerate(testlist):
+...    print(i, ': ', value)
+...
+(0, ': ', 10)
+(1, ': ', 20)
+(2, ': ', 30)
+
+# Trick #29
+# UNPACK FUNCTION ARGUMENTS USING SPLAT OPERATOR.
+>>> def test(x, y, z):
+...     print(x, y, z)
+...
+>>> testDict = {'x': 1, 'y': 2, 'z': 3}
+>>> testList = [10, 20, 30]
+>>> test(*testDict)
+('y', 'x', 'z')
+>>> test(**testDict)
+(1, 2, 3)
+>>> test(*testList)
+(10, 20, 30)
+
+# Trick #30
+# USE A DICTIONARY TO STORE A SWITCH.
+>>> stdcalc = {
+'sum': lambda x, y: x + y,
+'subtract': lambda x, y: x - y
+}
+>>> print(stdcalc['sum'](9,3))
+12
+>>> print(stdcalc['subtract'](9,3))
+6
+
+# Trick #31
+# CALCULATE THE FACTORIAL OF ANY NUMBER IN ONE LINE.
+# Python 2
+>>> result = (lambda k: reduce(int.__mul__, range(1,k+1),1))(3)
+>>> print(result)
+6
+# Python 3
+>>> import functools
+>>> result = (lambda k: functools.reduce(int.__mul__, range(1,k+1),1))(3)
+>>> print(result)
+6
+
+# Trick #32
+# FIND THE MOST FREQUENT VALUE IN A LIST.
+>>> test = [1,2,3,4,2,2,3,1,4,4,4]
+>>> print(max(set(test), key=test.count))
+4
+
+# Trick #33
+# CHECK THE MEMORY USAGE OF AN OBJECT.
+>>> import sys
+>>> x=1
+>>> print(sys.getsizeof(x))
+14
+
+# Trick #34
+# CREATE A DICTIONARY FROM TWO RELATED SEQUENCES.
+>>> t1 = (1, 2, 3)
+>>> t2 = (10, 20, 30)
+>>> print(dict (zip(t1,t2)))
+{1: 10, 2: 20, 3: 30}
+
+# Trick #35
+# LAMBDA TO IMITATE PRINT FUNCTION.
+>>> import sys
+>>> lprint=lambda *args:sys.stdout.write(" ".join(map(str,args)))
+>>> lprint("python", "tips",1000,1001)
+python tips 1000 100121
+
+# Trick #36
+# IN LINE SEARCH FOR MULTIPLE PREFIXES IN A STRING.
+>>> print("http://www.google.com".startswith(("http://", "https://")))
+True
+>>> print("http://www.google.co.uk".endswith((".com", ".co.uk")))
+True
+
+# Trick #37
+# IMPLEMENT A TRUE SWITCH-CASE STATEMENT IN PYTHON.
+>>> def xswitch(x):
+    return xswitch._system_dict.get(x, None)
+>>> xswitch._system_dict = {'files': 10, 'folders': 5, 'devices': 2}
+>>> print(xswitch('default'))
+None
+>>> print(xswitch('devices'))
+2
+
+# Trick #38
+# Trick #39
+# Trick #40
