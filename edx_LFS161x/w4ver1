@@ -1,0 +1,50 @@
+WEEK 4
+
+
+Knowledge Check 4.1
+Which of the following best describes the idea of reducing bottlenecks? Please select the correct answer.
+a. Lean
+*b. The Theory of Constraints correct
+c. Agile
+d. DevOps 
+
+NOTE: http://www.lean-manufacturing-japan.com/scm-terminology/bottleneck-constraint.html
+
+
+Knowledge Check 4.2
+What is the primary difference between Continuos Delivery and Continuous Deployment? Please select the correct answer.
+a. Continuous Deployment can be deployed to production and Continuous Delivery is deployed into production
+*b. Continuous Delivery can be deployed to production and Continuous Deployment is deployed into production correct
+c. Continuous Delivery can be deployed to test and Continuous Deployment is deployed into production
+d. Continuous Delivery can be deployed to production and Continuous Deployment is deployed into test 
+
+NOTE: https://puppet.com/blog/continuous-delivery-vs-continuous-deployment-what-s-diff
+
+
+Knowledge Check 4.3
+What is the difference between Test-Driven Development (TDD) and Behavior-Driven Development (BDD)? Please select the correct answer.
+a. TDD is where developers write the code first, before testing, and BDD is where tests are designed to test how the code works versus how it behaves
+b. TDD is where developers write the code first, before testing, and BDD is where tests are designed to test how the code behaves versus how it works
+c. TDD is where developers write tests first, before coding, and BDD is where tests are designed to test how the code works versus how it behaves
+*d. TDD is where developers write tests first, before coding, and BDD is where tests are designed to test how the code behaves versus how it works 
+
+NOTE: 4.1. Automated Testing (Part I) video - TDD is where developers write tests first, before coding
+4.2. Automated Testing (Part II) vidoe - BDD at 03:20
+Video - https://www.youtube.com/watch?v=4QFYTQy47yA
+	 
+
+Knowledge 4.4
+The following three items are considered types of zero downtime deployment patterns: rolling upgrades, canary, blue-green deployments. Please select the correct answer.
+*a. True
+b. False 
+
+NOTE: 5.1. Deployment Strategies (Part I) - video at 05:45
+
+
+Knowledge Check 4.5
+Which of the following statements best describes the concept of "pets versus cattle"? Please select the correct answer.
+a. "Pets" are like treating your infrastructure like pets (not giving servers' names) and "Cattle" is like treating your infrastructure as cattle (giving your servers' names)
+b. "Pets" are like treating your infrastructure like pets (never logging into them) and "Cattle" is like treating your infrastructure as cattle (giving your servers' names)
+*c. "Pets" are like treating your infrastructure like pets (giving servers' names) and "Cattle" is like treating your infrastructure as cattle (ephemeral infrastructure) correct 
+
+NOTE: video 3.1. Creating Consistency in the Pipeline (Part I) at 5:30
