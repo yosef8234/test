@@ -1,0 +1,319 @@
+FINAL EXAM
+
+
+Question 1
+Which of the following statements is true, according to the Puppet Labs Survey? Please select the correct answer.
+A. High performance organizations deploy software more frequently, but take longer to resolve issues
+B. High performing organizations deploy software more frequently, but have higher change rate failures
+C. Low performing organizations deploy less frequently and have shorter lead times
+*D. High performing organizations resolve issues faster and deploy more frequently than low performing organizations 
+
+NOTE: 
+
+
+Question 2
+Which one of the following does not belong in the definition for CAMS? Please select the correct answer.
+A. Culture
+*B. Alignment
+C. Management
+D. Sharing 
+
+NOTE: Culture of Automation Measurement(Management) Sharing
+
+
+Question 3
+What study is Dr. Sidney Dekker best known for? Please select the correct answer.
+A. Toyota Production Systems
+B. Lean Systems
+C. Organizational Change Management
+*D. Resilience Engineering and Human Factors
+E. Learning Organizations 
+
+NOTE: https://en.wikipedia.org/wiki/Sidney_Dekker
+
+
+Question 4
+Who wrote the "Implementing Lean Software Development" book? Please select the correct answer.
+A. John Kotter
+B. Peter Senge
+C. Edwards Deming
+*D. Mary and Tom Poppendieck
+E. Jez Humble 
+
+NOTE: https://www.amazon.com/Implementing-Lean-Software-Development-Concept/dp/0321437381
+
+
+Question 5
+Who is the author of the Plan-Do-Check-Act concept? Please select the correct answer.
+*A. Edwards Deming
+B. Mike Rother
+C. Gene Kim
+D. Jim Womack 
+
+NOTE: https://en.wikipedia.org/wiki/PDCA
+
+
+Question 6
+Which of the following statements best describes the difference between Lead Time and Cycle Time, as described in this course? Please select the correct answer.
+*A. Lead Time is from request to delivery, and Cycle Time is from start work to delivery
+B. Lead Time is from start work to delivery, and Cycle Time is from request to delivery
+C. Lead Time is from provision time to customer acceptance, and Cycle Time is from Start work to customer acceptance
+D. Lead Time is from start work to customer acceptance, and Cycle Time is from provision time to customer acceptance 
+
+NOTE: https://leanandkanban.wordpress.com/2009/04/18/lead-time-vs-cycle-time/
+
+
+Question 7
+1.0 point possible (graded)
+Which of the following patterns is not a pattern belonging to the First Way? Please select the correct answer.
+A. Make Work Visible
+B. Reduce Batch Size
+C. Limit WIP
+D. Eliminate Waste
+*E. Accelerate Feedback 
+
+NOTE: Accelerate Feedback belongs to Second Way
+
+
+Question 8
+Which of the following statements is true? Please select the correct answer.
+A. Muda describes the unevenness of work
+B. Mura Describes overall waste in the flow
+*C. Muda describes overall waste in the flow correct
+D. Mura describes bottlenecks 
+
+NOTE: http://leanmanufacturingtools.org/71/muda-mura-and-muri-lean-manufacturing-wastes/
+
+
+Question 9
+What is the different between Deployment Lead Time and Lead Time, as described in this course? Please select the correct answer.
+A. Lead Time starts when the story is created, and Deployment Lead Time starts when the item is added to the backlog
+B. Lead Time starts when the code is checked in and Deployment Lead Time starts when the item is added to the backlog
+*C. Lead Time starts when the idea is created, and Deployment Lead Time starts when the code is checked into source control 
+
+NOTE: http://pm.stackexchange.com/questions/15620/what-is-lead-time
+
+
+Question 10
+Which of the following statements best describes the Agile tool called Scrumban? Please select the correct answer.
+A. An Agile system that manages the flow of work by typically breaking the work into two-week sprints
+*B. An Agile system that uses a hybrid of a pull system and sprints
+C. An Agile system that manages the flow of work through a pull system moving work elements across a card wall. 
+
+NOTE: http://www.deloittedigital.com/us/blog/scrumban-a-different-way-to-be-agile
+
+
+Question 11
+What does the ELK stack for monitoring stand for? Please select the correct answer.
+*A. Elasticsearch, Logstash, and Kibana
+B. Elasticsearch, Load Monitoring, and Kanban
+C. Elastic Compute, Load Monitoring, and Kanban
+D. Elasticsearch, Logstash, and Kanban 
+
+NOTE: 3.4. Understanding Monitoring (Part IV) video at 02:00 min 
+
+
+Question 12
+Which of the following is not considered to be a Fault Injection Technique? Please select the correct answer.
+A. Chaos Monkey
+B. Game Day
+C. FIT
+*D. SignalFx 
+
+NOTE: 2.1. Fast Feedback (Part I) video at 07:00 
+
+
+Question 13
+A fixed mindset is outcome-based, and is a belief that intelligence and talent are fixed traits. Is this statement true or false? Please select the correct answer.
+*A. True
+B. False 
+
+NOTE: https://www.brainpickings.org/2014/01/29/carol-dweck-mindset/ 
+
+
+Question 14
+What is the significance of the NUMMI plant story? Please select the correct answer.
+A. Japanese managers are better than US-based managers
+B. American workers can be taught to do hard work
+*C. It's a story about a learning organization, illustrating how workers can change their habits in a transformative culture correct 
+
+NOTE: https://en.wikipedia.org/wiki/NUMMI
+or video 2.8. Understanding Organizational Change (Part VIII)
+
+
+Question 15
+Who said "If you have four groups working on a compiler, you'll get a 4-pass compiler"? Please select the correct answer.
+A. Melvin Conway
+B. Eric Evans
+*C. Eric Raymond 
+
+NOTE: https://en.wikipedia.org/wiki/Conway's_law -> Eric S Raymond, an open source advocate wrote that "If you have four groups working on a compiler, you'll get a 4-pass compiler"
+
+
+Question 16
+Which of the following companies first created the job role of a Site Reliability Engineer? Please select the correct answer.
+A. IBM
+B. Facebook
+*C. Google 
+D. Amazon 
+
+NOTE: https://landing.google.com/sre/interview/ben-treynor.html
+
+
+Question 17
+1.0 point possible (graded)
+In the 68-95-99.7 rule, which value would be 1 Sigma? Please select the correct answer.
+*A. 68
+B. 65
+C. 99.9
+D. 99.7 
+
+NOTE: Sigma 1 -> 68
+
+
+Question 18
+Which of the following is the author of the Theory of the Normalization of Deviance? Please select the correct answer.
+A. Sidney Dekker
+*B. Diane Vaughan
+C. Margaret Hamilton
+D. Gene Krantz 
+
+NOTE: https://en.wikibooks.org/wiki/Professionalism/Diane_Vaughan_and_the_normalization_of_deviance
+
+
+Question 19
+ChatOps must be used in Slack. Is this statement True or False? Please select the correct answer.
+A. True
+*B. False 
+
+NOTE: It can be use on different clients check this presentation
+https://www.youtube.com/watch?v=F8Vfoz7GeHw
+
+
+Question 20
+Which of the following accurately reflects point number one from Deming's 14 points? Please select the correct answer.
+A. Deming calls it the "Why"
+*B. Goldratt calls it the "Goal"
+C. Simon Sinek calls it the "Aim"
+D. Rother calls it the "Target" 
+
+NOTE: Simon Sinek - Why (Start with why), Demings - aim , Mike Rother - Toyota Kata
+https://en.wikipedia.org/wiki/The_Goal_(novel)
+
+
+Question 21
+Who is considered to be the father of "learning organizations"? Please select the correct answer.
+A. Edwards Deming
+B. John Koter
+*C. Peter Senge
+D. Andrew Shafer 
+
+NOTE: https://en.wikipedia.org/wiki/Peter_Senge
+
+
+Question 22
+Which one of the following is not part of the nine behaviors mentioned in the Netflix Culture deck? Please select the correct answer.
+A. Judgement
+B. Communication
+C. Impact
+D. Curiosity
+*E. Imagination 
+
+NOTE: Netflix story http://www.slideshare.net/reed2001/culture-1798664/9-You_make_wise_decisionspeople_technical
+
+
+Question 23
+Which of the feedback technoques described by Dan North requires a high trust model? Please select the correct answer.
+A. Porpoise Feedback
+B. Sandwich Feedback
+*C. Atkins Feedback
+
+NOTE: https://www.infoq.com/news/2016/03/feedback-techniques
+
+
+Question 24
+Which of the following is known for saying "Underneath every simple, obvious story about 'human error', there is a deeper, more complex story about the organization? Please select the correct answer.
+*A. Sidney Dekker
+B. Peter Senge
+C. Edwards Deming
+D. Mike Rother 
+
+NOTE: https://www.goodreads.com/author/quotes/214803.Sidney_Dekker
+3.1. Blameless Culture (Part I)  video at 01:00
+
+
+Question 25
+Human error is the cause of error, according to Sidney Dekker's old view on human error, otherwise known as the First Story. Is this statement True or False? Please select the correct answer.
+*A. True
+B. False 
+
+NOTE: 3.1. Blameless Culture (Part I)  video at 01:00
+
+
+Question 26
+Who is the author of the Principles of Scientific Management? Please select the correct answer.
+A. Sidney Dekker
+B. Jeff Sussna
+*C. Frederick Winslow Taylor
+D. Gene Kim 
+
+NOTE: https://en.wikipedia.org/wiki/The_Principles_of_Scientific_Management
+
+
+Question 27
+Which of the following sentences best describes the Fundamental Attribute Bias? Please select the correct answer.
+A. We knew-it-all-along
+* B. The database group caused the outage
+C. That is the same problem we saw last week
+D. Had we been there, the outage would have not happened. incorrect 
+
+NOTE: some examples:
+
+hindsight bias - You know, "Yes, we knew it all along" ... it's this idea of seeing the event as having been predictable ... certainly, counterfactuals ...  "Oh, if they would have just used Chef, this would have never happened", right?
+Like, not picking on Chef, you know, but any ... Ansible ... "If they would have just used Ansible ..."
+
+outcome bias - you know, evaluating the quality of a decision when the outcome of that decision is already known, right? That's
+That's, you know ... it's easy to say "Well, that happened because of, you know, XYZ ... We've seen that before ..." One of the worst things are when you actually kind of miraculously dive in and save ... avert a disastrous problem, right?
+To think that like, that, since you did XYZ, this would never happen again, right? And ...
+In fact, there's a whole study of what they call ... Dekker calls ... precursors, or this kind of near-miss idea that, you know, that you think you've solved it a bunch of times ...
+In fact, Diane Vaughan, I referred to this in one of the sections, where Diane Vaughan, created this ... when she researched the Challenger disaster, she came up with this concept of the normalization of deviance, right?
+Which I would say is kind of a form of an outcome bias, where you, you know, you get kind of used to making mistakes, and, because it doesn't really break when you make those mistakes, in the future you'll say "Oh, don't worry about that, we do that all the time ..."
+
+availability bias - the preference by decision makers to information and events that are more recent. Like, this idea, so, you're looking for the most recent event to answer a question. Now, there's a ...
+There's a trade-off between kind of, you know, the heuristics of wha's the simplest answer, there's this concept of, called Occam's razor, which, you know, I'm going to completely oversimplify, but sometimes, the simplest answer is the right answer, or the best answer, right?
+But, just ... you need to be aware that we are suspect to these availability biases, right? So, we can wind up like thinking like, the thing that happened yesterday is the thing that happened today ... We got to be really careful.
+
+fundamental attribution error - And probably, the worst of all, I think is, you know, I think the fundamental attribution error is the kind of deadliest cognitive sin,
+and that is where we try to explain behaviors on kind of personality traits, or abilities, or motives, where, you know, "Bill is always sloppy with his code, so, surely, that's why the system went down", or "The system is broken. It must have been Sue".
+I remember an example one time, where I was with this one guy, he was pretty aggressive, it was a big mainframe days, but like, one day, everybody was in the hallway, the system went down, they were all complaining about how Joe brought the system down
+and I pointed out to them all that Joe was on vacation that week, right? So ...
+Again, a fundamental attribution error ...
+
+
+Question 28
+What is the name of a popular open source project that is based on Mike Nygard's Circuit Breaker Patterns concept? Please select the correct answer.
+A. Nginx
+*B. Hystrix
+C. Spring Boot
+D. Chaos Monkey 
+
+NOTE: 
+
+Question 29
+In the case of Google SRE, if a service team's SLA for a specific service is 99, what is their error budget? Please select the correct answer.
+A. 0.1
+*B. 1.0
+C. 0.01
+D. 0.001 
+
+NOTE: 100 - 99 = 1
+
+
+Question 30
+Which of the following is ODDA most associated with? Please select the correct answer.
+*A. PDCA 
+B. Toyota Kata
+C. Lean
+D. Scientific method 
+
+NOTEL https://en.wikipedia.org/wiki/OODA_loop
