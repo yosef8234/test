@@ -1,0 +1,120 @@
+WEEK 5
+
+
+Knowledge Check 5.1
+Which of the following statements best explains the primary difference between an SLA and an SLO, as described in the course? Please select the correct answer.
+a. An SLA is based between the internal service team and the system in which it operates and an SLO is based between the business and the customer.
+b. An SLA is based between the internal service team and the system in which it operates and an SLO is based on the organizational chart.
+*c. An SLA is based between the business and the customer and an SLO is based between the internal service team and the system in which it operates. correct
+d. An SLA is based between the developers and the customer and an SLO is based between the operations team and the customer. 
+
+NOTE: 1.2. Creating a Service Reliability Culture (Part II)
+
+
+Knowledge Check 5.2
+What was Diane Vaughan’s significant contribution, as discussed in this chapter? Please select the correct answer.
+a. She studied the NASA Challenger disaster and coined the concept of “Deviance of Normalization”.
+b. She studied under Sydney Dekker, and co-authored “Drift into Failure”.
+*c. She studied the NASA Challenger disaster and coined the concept of “Normalization of Deviance”.
+d. She studied under John Allspaw and coined the concept of “Normalization of Deviance”. 
+
+NOTE:
+
+
+Knowledge Check 5.3
+Which of the statements below is True? Please select the correct answer.
+a. Accelerating Loop - Accelerates suppressive behavior, and Diminishing Loop - Diminishes feedback
+b. Balancing Loop - Moves towards an unstable goal, and Thrashing Loop - Oscillates between states
+c. Accelerating Loop - Amplifies behavior, and Diminishing Loop - Diminishes feedback
+*d. Accelerating Loop - Amplifies behavior, and Diminishing Loop - Suppresses behavior 
+
+NOTE: 2.2. Fast Feedback (Part II) video at 02:30 min
+
+
+Knowledge Check 5.4
+Which of the following is not one of the five layers of a monitoring stack, as discussed in this chapter? Please select the correct answer.
+a. Business indicators
+b. Application indicators
+c. Infrastructure indicators
+*d. CPU utilization correct
+e. Deployment indicators 
+
+NOTE: 3.1. Understanding Monitoring (Part I) video at 04:50
+
+
+Knowledge Check 5.5
+Given the following vector, "X=c(2,4,4,4,5,5,7,9)", what is the Mean, Median and Standard Deviation? Please select the correct answer.
+a. Mean=5, Median=4.5, Standard Deviation=2.1
+b. Mean=4, Median=4.5, Standard Deviation=1.5
+c. Mean=5, Median=5, Standard Deviation=2.1
+d. Mean=4, Median=4.5, Standard Deviation=1.5 
+
+NOTE: checked in R Studio:
+
+> x=c(2,4,4,4,5,5,7,9)
+> x
+[1] 2 4 4 4 5 5 7 9
+> mean(x)
+[1] 5
+> median(x)
+[1] 4.5
+> sd(x, na.rm = FALSE)
+[1] 2.13809
+> 
+
+
+Knowledge Check 5.6
+In the 68-95-99.7 Rule, which value would be 3 Sigma? Please select the correct answer.
+a. 68
+b. 65
+c. 99.9
+*d. 99.7 
+
+NOTE: https://en.wikipedia.org/wiki/68%E2%80%9395%E2%80%9399.7_rule
+https://thecuriousastronomer.wordpress.com/2014/06/26/what-does-a-1-sigma-3-sigma-or-5-sigma-detection-mean/
+
+
+Knowledge Check 5.7
+Who was the primary author of Cybernetics? Please select the correct answer.
+a. Sydney Dekker
+b. Jeff Sussna
+*c. Norbert Weiner
+d. Gene Kim 
+
+NOTE: https://en.wikipedia.org/wiki/Norbert_Wiener
+https://en.wikipedia.org/wiki/Cybernetics
+
+
+Knowledge Check 5.8
+Which of the following is not part of Cynefin? Please select the correct answer.
+a. Obvious
+*b. Correlated
+c. Complicated
+d. Chaotic
+e. Complex 
+
+NOTE: https://en.wikipedia.org/wiki/Cynefin_framework
+https://en.wikipedia.org/wiki/Cynefin_framework#/media/File:Cynefin_as_of_1st_June_2014.png
+https://en.wikipedia.org/wiki/Cynefin_framework#/media/File:Cynefin_framework,_February_2011_(2).jpeg
+
+
+Knowledge Check 5.9
+Which of the following open source projects is based on Mike Nygard's Circuit Breaker Patterns concept? Please select the correct answer.
+a. Nginx
+*b. Hystrix
+c. Spring Boot
+d. Chaos Monkey 
+
+NOTE: 4.2. Understanding Complexity (Part II) video at 03:50 min
+
+
+Knowledge Check 5.10
+Which of the following companies created ChatOps? Please select the correct answer.
+a. Etsy
+b. Netflix
+*c. GitHub 
+d. Atlassian 
+
+
+NOTE: https://www.youtube.com/watch?v=l_tULSeO9yg
+
