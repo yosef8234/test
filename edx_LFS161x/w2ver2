@@ -1,0 +1,39 @@
+WEEK 2
+
+
+Knowledge Check 2.1
+Which of the following is considered part of the Cycle Time? Please select the correct answer from the drowpdown list.
+*Deploy into production - correct
+
+
+Knowledge Check 2.2
+Which of the following is not a way of reducing Lead Time? Please select the correct answer from the dropdown list.
+*Optimize locally - correct
+
+
+Knowledge Check 2.3
+What does PDCA stand for and who is its author? Please select the correct answer.
+*a. Plan-Do-Check-Act/Deming
+b. Plan-Do-Change-Act/Deming
+c. Plan-Do-Check-Act/Rother
+d. Plan-Do-Change-Act/Rother
+
+
+Knowledge Check 2.4
+The Three Ways of DevOps are: the First Way - Accelerate Flow, the Second Way - Amplify Feedback, and the Third Way - Continuous Integration. Please select the correct answer.
+a. True
+*b. False correct 
+
+NOTE: http://itrevolution.com/the-three-ways-principles-underpinning-devops/
+The Third Way is about creating a culture that fosters two things: continual experimentation, taking risks and learning from failure; and understanding that repetition and practice is the prerequisite to mastery.
+
+
+Knowledge Check 2.5
+Which of the following is a popular tool in DevOps to help manage Flow and make work visible??
+a. Scrum
+b. Chef
+c. Puppet
+*d. Kanban 
+
+NOTE: https://en.wikipedia.org/wiki/Kanban_(development)
+https://en.wikipedia.org/wiki/Kanban_board
