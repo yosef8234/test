@@ -1,5 +1,5 @@
 # Write a method to replace all spaces in a string with '%20'.
-# For example "  i love python  " == "%20%20i%20love%20python"
+# For example "  i love python  " == "i%20love%20python"
 
 # def replacespaces(str):
 #     res = ''
@@ -15,6 +15,9 @@
 
 # print(replacespaces("  i love python  "))
 
+def urlifyString_pythonc(str):
+    return str.strip().replace(" ", "%20")
+
 def urlifyString(str):
     res = ''
     start = False
@@ -26,3 +29,4 @@ def urlifyString(str):
     return res
 
 print(urlifyString("       Mr John Smith           ")) # Mr%20John%20Smith
+print(urlifyString_pythonc("  i love python  ")) # i%20love%20python

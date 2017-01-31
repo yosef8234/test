@@ -4,7 +4,7 @@
 testString = 'abc'
 
 def isUniqueChars(str):
-    if len(str) > 128:
+    if len(str) > 128: # or 256 if string has Extended ASCII Codes
         return False
     arr = [False] * 128 # arr [False, False, False,..]
     for char in str:
