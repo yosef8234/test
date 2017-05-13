@@ -94,7 +94,7 @@
 # False
 
 import re
-regex = r'^[+-]?\d*.\d+$'
+regex = r'^[-+]?[0-9]*\.[0-9]+$'
 for i in range(int(input())):
     check=re.search(regex, str(input()))
     print(bool(check))
