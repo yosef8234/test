@@ -1,0 +1,13 @@
+# How to build a modern CI/CD pipeline
+# https://medium.com/bettercode/how-to-build-a-modern-ci-cd-pipeline-5faa01891a5b
+# Using free and hosted services
+
+- Write a little Python program (not Hello World)
+- Add some automated tests for the program
+- Push your code to GitHub
+- Setup Travis CI to continuously run your automated tests
+- Setup Better Code Hub to continuously check your code quality
+- Turn the Python program into a web app
+- Create a Docker image for the web app
+- Push the Docker image to Docker Hub
+- Deploy the Docker image to Heroku
