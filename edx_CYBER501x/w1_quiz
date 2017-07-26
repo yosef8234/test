@@ -48,9 +48,9 @@ False
 
 UNIT 1: Question 8
 Which two breaches started when a third-party’s credentials were compromised? (Select two)
-Home Depot
+*Home Depot
 Chase
-Target
+*Target
 Houston Astros
 
 UNIT 1: Question 9
@@ -64,5 +64,5 @@ UNIT 1: Question 10
 If integrity hacks become prevalent, a direct result could be an increase in:
 The amount of malware
 The amount of Internet of Things devices affected
-The amount of time hackers can lurk on a network undetected
+*The amount of time hackers can lurk on a network undetected
 The number of ransomware attacks
