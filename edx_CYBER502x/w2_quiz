@@ -1,68 +1,68 @@
-##### Unit 2: Question 1
+Unit 2: Question 1
 What information is typically lost when a computer is shut down? (Select all that apply.)
-**Current network connections**
-**Data in RAM**
+*Current network connections
+*Data in RAM
 /etc directory on disk
-**Running processes**
+*Running processes
 
-##### Unit 2: Question 2
+Unit 2: Question 2
 To find out when a Linux machine was rebooted, a forensic investigator uses the command:
 uname
-**uptime**
+*uptime
 date
 ifconfig
 
-##### Unit 2 : Question 3
+Unit 2 : Question 3
 To find a root-owned SetUID (SUID) file, we use the command:
 egrep -uid 0 suid
-**find / -uid 0 –perm -4000 2>/dev/null**
+*find / -uid 0 –perm -4000 2>/dev/null
 ls / | egrep suid
 which suid
 
-##### Unit 2 : Question 4  
+Unit 2 : Question 4  
 Which of these commands can transfer the retrieved data from one system to another?
 transfer
 pipe
-**nc**
+*nc
 netstat
 
-##### Unit 2 : Question 5
+Unit 2 : Question 5
 When using netcat to transfer a dd image of an entire drive across a network to a machine with the IP address 10.1.0.1, which command would be used to invoke netcat on the receiving machine?
 nc –l –p 9999 | hda1.dd
 dd if=/dev/hda1 | nc 10.1.0.1 9999
-**nc –l –p 9999 > hda1.dd**
+*nc –l –p 9999 > hda1.dd
 dd if=/dev/hda | netcat –l -p 9999
 
-##### Unit 2 : Question 6
+Unit 2 : Question 6
 Which of these is not a forensic imaging tool?
 dcfldd
 dd
-**ldd**
+*ldd
 sdd
 
-##### Unit 2 : Question 7
+Unit 2 : Question 7
 Which of these tools can acquire memory remotely?
 Fmem
-**F-Response**
+*F-Response
 Linux Memory Extractor (LiME)
 Live Response
 Memdump
 
-##### Unit 2 : Question 8
+Unit 2 : Question 8
 True or False: When you use FTK Imager to acquire a disk image, you do not need to use a write blocker.
 True
-**False**
+*False
 
-##### Unit 2 : Question 9
+Unit 2 : Question 9
 When using dd to carve out the data that belongs to a partition from a whole drive dd image, we use the command:
 bs and count
 conv
 seek and count
-**skip and count**
+*skip and count
 
-##### Unit 2 : Question 10
+Unit 2 : Question 10
 Which of these Linux/Unix commands will show a list of network connections on a Linux/Unix system? (Select two.)
-**netstat**
+*netstat
 uptime
-**lsof**
+*lsof
 ps

@@ -1,0 +1,64 @@
+Unit 1 : Question 1
+Why would you wipe a hard disk of the forensics machine before data acquisition?
+*To make sure unwanted data is not retained on a disk
+To remove finger prints
+To ensure it has enough space
+Data on a hard disk cannot be overwritten
+
+Unit 1 : Question 2
+After acquiring the volatile data, how should you shut down a desktop computer for a non-volatile data acquisition?
+Performing a graceful shut down 
+*Pulling the plug from the computer
+Either of the above
+
+Unit 1 : Question 3
+Which of these will create a bit-stream image?
+cp
+dump
+*FTK Imager
+tar
+
+Unit 1 : Question 4
+When calculating hashes on files and file systems, why should you use two different hashing algorithms (for example: md5 and sha1)?
+Using an alternate algorithm ensures the minimum number of bit-comparisons can be performed.
+Using a second hashing algorithm provides additional functions that enhance the perceived file content.
+A second hashing algorithm can help the hash performance.
+*If one hash is questioned, the second can help provide an alternate data validation mechanism.
+
+Unit 1 : Question 5
+True or False: Changing a file's permission(s) will change the file's hash result.
+True
+*False
+
+Unit 1 : Question 6
+If a hard disk contains multiple partitions, a hash of this hard disk using a hash algorithm________:
+computes a hash of the first partition only
+*computes a hash of the entire hard disk correct
+computes a hash of the existing files only
+does not include deleted data
+
+Unit 1 : Question 7
+When collecting evidence from a suspect machine for a forensic investigation, all output should be directed to:
+The internal hard disk of the suspect machine
+*An external disk or storage media that has been wiped clean 
+Either of the above
+
+Unit 1: Question 8
+Which of the fillowing is nonvolatile data?
+Processes running in memory
+Memory (RAM)
+Open-files (The files that are currently being accessed by one or more processes)
+*Data stored on a USB flash drive 
+Network connections
+
+Unit 1: Question 9
+True or false: Forensic Chain-of-custody maintains a record of how evidence has been handled from the moment it was collected to the moment it is presented in a court.
+*True
+False
+
+Unit 1: Question 10
+In 1999, Farmer and Venema presented the forensic process and the first computer forensics suite called__________ that marked the beginning of the computer forensics field.
+FTK Imager
+Forensic Suite
+*The Coroner's Toolkit (TCT)
+Sleuthikit
