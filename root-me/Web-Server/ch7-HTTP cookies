@@ -1,0 +1,6 @@
+We need to look through cookies in this challenge.
+
+I use chrome extension EditThisCookie for this challenge.
+
+After sending any email a cookie has been created with value visiteur.
+Change the value from visiteur to admin and refresh.

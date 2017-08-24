@@ -1,0 +1,11 @@
+Use Mozilla firefox add-on Deobfuscator to make javascript readable.
+
+readable javascript =>
+a = prompt('Entrez le mot de passe');
+if (a == 'toto123lol') {
+  alert('bravo');
+} else {
+  alert('fail...');
+}
+
+Password: toto123lol

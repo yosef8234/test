@@ -1,0 +1,62 @@
+UNIT 3 : Question 1
+Securely visiting websites, as brought out by the Website Demo video, involves which of the following? (Select all that apply)
+*Symmetric Encryption
+*Asymmetric Encryption
+*Hashing
+Covering your webcam with tape
+
+UNIT 3 : Question 2
+Comodo, Symantec, and GoDaddy are all examples of what?
+*Certificate Authorities
+Symmetric Encryption
+Digital Certificates
+Algorithms
+
+UNIT 3 : Question 3
+What kind of algorithm is RSA?
+Symmetric
+*Asymmetric
+Hashing
+
+UNIT 3 : Question 4
+Which encryption method uses the same key to both encrypt and decrypt?
+*Symmetric
+Asymmetric
+
+UNIT 3 : Question 5
+Is it a good idea to try to keep an encryption algorithm secret?
+Yes
+*No
+
+UNIT 3 : Question 6
+Which of the following is true regarding hashing algorithms?
+Fixed length input, variable length output
+Fixed length input, fixed length output
+Variable length input, variable length output 
+*Variable length input, fixed length output
+
+UNIT 3 : Question 7
+When plaintext is encrypted, which of the following describes what someone who intercepts the message can do to the ciphertext? (Select all that apply)
+*See it
+*Save it
+Understand it
+
+UNIT 3 : Question 8
+When you download a file from the Internet, which of the following might appear next to the hyperlink for the file?
+Symmetric Key
+Asymmetric Key
+Both Symmetric and Asymmetric Keys
+*Hash
+
+Unit 3 : Question 9
+When you log in to a computer and enter your password, what is actually used to authenticate you?
+*A hash of your password
+Your password, encrypted with a public key
+Your password, encrypted with a private key
+Your password in plaintext
+
+UNIT 3 : Question 10
+As evidenced by the Heartbleed bug, according to the referenced article, Everything you need to know about the Heartbleed SSL bug by Troy Hunt, encryption does not protect data that is…
+At rest on the hard drive
+In motion
+*Being processed and temporarily sored in RAM

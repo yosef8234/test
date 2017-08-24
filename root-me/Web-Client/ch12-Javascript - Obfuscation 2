@@ -1,0 +1,17 @@
+After looking at the source code.
+
+var pass = unescape("unescape%28%22String.fromCharCode%2528104%252C68%252C117%252C102%252C106%252C100%252C107%252C105%252C49%252C53%252C54%2529%22%29");
+
+Now using javascript function to evaluate variable pass.
+
+pass1 = eval(pass)
+
+Result => pass1 = String.fromCharCode(104,68,117,102,106,100,107,105,49,53,54)
+
+Now again evaluate pass1.
+
+pass2 = eval(pass1)
+
+Result => hDufjdki156
+
+pass2 is the required password. 

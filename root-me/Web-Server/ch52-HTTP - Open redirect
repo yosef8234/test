@@ -1,0 +1,7 @@
+From the source code, we see that there are two parameters URL and h
+
+After analyzing we get that h is the md5 hash of the complete URL
+
+Now see the source code from URL
+
+view-source:http://challenge01.root-me.org/web-serveur/ch52/?url=https://www.google.co.in&h=92f158145c0ceada6f86f2fb1239fc14

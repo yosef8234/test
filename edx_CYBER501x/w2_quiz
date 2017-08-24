@@ -1,0 +1,63 @@
+UNIT 2 : Question 1
+The fact that you, logged in to your edX account, can’t see the answer to this question is an example of:
+Authentication
+*Authorization
+Auditing
+
+UNIT 2 : Question 2
+Keeping track of students that get the correct answer to this question is an example of:
+Authentication
+Authorization
+*Auditing
+
+UNIT 2 : Question 3
+What does a threat agent initiate?
+*Threat
+Vulnerability
+Risk
+
+UNIT 2 : Question 4
+What ONE word when inserted into both blank spaces makes this sentence correct?
+A(n)_________ is used to ________ a weakness in a system.
+Risk
+Vulnerability
+*Exploit
+Threat
+
+UNIT 2 : Question 5
+Which of these are examples of threat agents? (Select 3)
+*Natural occurances
+*Hacker
+Exploit
+*A squirrel that is about to eat a cable
+
+UNIT 2 : Question 6
+What is the correct sequence of steps for allowing a user to gain access to a system or network?
+Authentication, Identification, Authorization, Accounting 
+*Identification, Authentication, Authorization, Accounting
+Identification, Authorization, Authentication, Accounting
+Authorization, Authentication, Identification, Accounting
+
+UNIT 2 : Question 7
+False positives and false negatives are most related to which form of authentication?
+Something you know
+*Something you are
+Something you have
+
+UNIT 2 : Question 8
+Protecting against Distributed Denial of Service (DDoS) attacks fit best under which part of the CIA model?
+Confidentiality
+Integrity
+*Availability
+
+UNIT 2 : Question 9
+“Hi! I’m Jonathan S. Weissman!” What did I just demonstrate?
+Authorization
+Integrity
+*Identification
+Exploit
+
+UNIT 2 : Question 10
+True or False: NIST, the National Institute of Standards and Technology, considers text messaging a strong form of Two-Factor Authentication.
+True
+*False
