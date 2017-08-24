@@ -1,0 +1,9 @@
+It is basic .htaccess authentication
+
+We can bypass this authentication by sending request from different methods.
+
+This can be done by curl.
+curl -X AAA http://challenge01.root-me.org/web-serveur/ch8/
+
+The -X attribute is used to define the request method.
+

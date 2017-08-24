@@ -1,0 +1,7 @@
+In this challenge we need to change the user agent from your browser to admin.
+
+Easily change the user agent from chrome developers tool network tab 
+
+or
+
+use linux tool curl =>  curl -H "User-Agent:admin" http://challenge01.root-me.org/web-serveur/ch2/
