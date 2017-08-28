@@ -8,7 +8,7 @@ UNIT 2 : Question 2
 Keeping track of students that get the correct answer to this question is an example of:
 Authentication
 Authorization
-*Auditing
+*Accounting
 
 UNIT 2 : Question 3
 What does a threat agent initiate?
@@ -29,12 +29,12 @@ Which of these are examples of threat agents? (Select 3)
 *Natural occurances
 *Hacker
 Exploit
-*A squirrel that is about to eat a cable
+*An animal who is about to eat a cable
 
 UNIT 2 : Question 6
 What is the correct sequence of steps for allowing a user to gain access to a system or network?
-Authentication, Identification, Authorization, Accounting 
-*Identification, Authentication, Authorization, Accounting
+Authentication, Identification, Authorization, Accounting
+*Identification, Authentication, Authorization, Auditing
 Identification, Authorization, Authentication, Accounting
 Authorization, Authentication, Identification, Accounting
 

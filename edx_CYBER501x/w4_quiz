@@ -1,0 +1,70 @@
+NETWORKING 1 UNIT QUIZ
+
+UNIT 4: Question 1
+A router connects _____ together.
+Devices of the same network
+Switches
+*Networks
+PCs
+
+UNIT 4: Question 2
+The ________________ identifies which portion of an IP address is the Network ID and which portion is the host ID.
+*Subnet Mask
+Default Gateway
+Network Interface Card
+DNS server
+
+UNIT 4: Question 3
+Given an IP address of 10.10.10.10, and a subnet mask of 255.0.0.0, what is the network ID?
+10.10.10.0
+10.0.10.10
+*10.0.0.0
+10.10.0.0
+
+UNIT 4: Question 4
+ARP replies are ________.
+*Unicasts
+Multicasts
+Broadcasts
+
+UNIT 4: Question 5
+Which of the following is true for traffic sourced by a PC, destined for a device on a different network?
+Both the destination MAC address and the destination IP address are the actual destination.
+The destination MAC address is the actual destination and the destination IP address is the default gateway
+*The destination MAC address is the default gateway and the destination IP address is the actual destination
+Both the destination MAC address and the destination IP address are the default gateway
+
+UNIT 4: Question 6
+Which of the following are found in router routing tables? (Select all that apply)
+MAC addresses
+*IP addresses
+*Network IDs
+Network frames
+
+UNIT 4: Question 7
+Without knowledge of a destination network or a default route, what will a router do to a packet with an unknown destination network? (Select all that apply)
+Ask another router
+*Drop the packet
+*Send a message back to the source
+Forward it out a randomly chosen interface
+
+UNIT 4: Question 8
+What changes with each hop that a packet takes towards a destination?
+IP addresses
+*MAC addresses
+Neither IP addresses nor MAC addresses
+Both the IP and MAC addresses
+
+UNIT 4: Question 9
+With a subnet mask of 255.255.0.0, which two IP addresses would be on the same network? (Select two)
+*10.0.0.10
+*10.0.1.1
+10.10.1.1
+10.1.10.10
+
+UNIT 4: Question 10
+What would be the subnet mask on a network that has five host bits?
+255.255.255.0
+255.255.255.248
+255.255.255.192
+*255.255.255.224

@@ -1,0 +1,68 @@
+NETWORKING 2 UNIT QUIZ
+
+UNIT QUIZ: Question 1
+If an FTP server and a Web server are running on the same machine, how does network communication get to each of those services?
+They have different MAC addresses
+They have different IP addresses
+*They have different ports
+They have different logons
+
+UNIT QUIZ: Question 2
+Common server services use:
+Well Known Ports
+Registered Ports
+*Dynamic Ports
+IP Ports
+
+UNIT QUIZ: Question 3
+Which of these does not use TCP?
+Webpages
+FTP
+*Simple DNS Queries
+E-mail
+
+UNIT QUIZ: Question 4
+Which of these does not use UDP?
+VoIP
+*A service that requires flow control
+Live streaming video
+DHCP
+
+UNIT QUIZ: Question 5
+What field does a switch use to forward a frame?
+Destination IP address
+*Destination MAC address
+Destination Port
+
+UNIT QUIZ: Question 6
+What field does a switch use to learn where devices are?
+Destination MAC address
+Destination Port
+*Source MAC address
+Source IP address
+
+UNIT QUIZ: Question 7
+Which of the following devices is not connected directly to a router?
+Another router
+A switch
+*A PC
+
+UNIT QUIZ: Question 8
+If a router doesn’t know where a destination network is, the router may: (Select all that apply)
+*Use a default route, if available
+Send an ARP
+*Drop the packet
+*Send an ICMP error message back to the source
+
+UNIT QUIZ: Question 9
+OSPF, EIGRP, and BGP are all:
+Switching protocols
+*Routing protocols
+DNS protocols
+Port Protocols
+
+UNIT QUIZ: Question 10
+Which of these would be used between routers of the same autonomous system? (Select two)
+*OSPF
+BGP
+*EIGRP
