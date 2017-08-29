@@ -1,0 +1,71 @@
+DETECTION AND PREVENTION UNIT QUIZ
+
+UNIT QUIZ: Question 1
+When a firewall filters traffic, the firewall ____________ the traffic.
+*Drops
+Broadcasts
+Re-routes
+Reframes
+
+UNIT QUIZ: Question 2
+
+What types of firewalls would be found on an individual PC? (Select all that apply)
+Hardware-based firewalls
+*Software-based firewalls
+Network-based firewalls
+*Host-based firewalls
+
+UNIT QUIZ: Question 3
+Which of the following are criteria for stateless packet filter firewalls? (Select all that apply)
+MAC Address
+*IP Address
+Email Address
+*Protocol
+*Port
+
+UNIT QUIZ: Question 4
+Content snooping and censoring, through Deep Packet Inspection, are carried out by which of these?
+Stateful packet firewall
+Stateless packet firewall
+Host-based firewall
+*Application Layer Gateway
+
+UNIT QUIZ: Question 5
+Which of these technologies can reassemble objects like PDFs and email messages?
+Deep Packet Inspection
+*Deep Content Inspection
+Stateless Packet Filter
+Stateful Packet Filter
+
+UNIT QUIZ: Question 6
+Which of the following statements are true? (Select all that apply)
+An IDS deals with malicious traffic that the firewall missed.
+An IPS is on the boundary of the trusted inside and the untrusted outside.
+A network-based firewall protects hosts from malicious traffic originating on their same network.
+An IPS protects hosts from malicious traffic originating on their same network.
+
+UNIT QUIZ: Question 7
+Which of the following statements is true?
+An IDS could instruct a firewall to block certain network traffic, but an IPS can’t.
+An IPS could instruct a firewall to block certain network traffic, but an IDS can’t.
+*Both an IDS and an IPS could instruct a firewall to block certain network traffic.
+Neither an IDS nor an IPS could instruct a firewall to block certain network traffic.
+
+UNIT QUIZ: Question 8
+Which of these approaches used by an IDS and IPS uses a baseline measurement to help detect malicious traffic?
+Signature-based
+*Anomaly-based
+
+UNIT QUIZ: Question 9
+Which of these technologies allows attackers to be fooled to see something that is not real? (Select all that apply)
+*Deception Software
+*Honeypot
+*Honeynet
+Deep Content Inspection
+
+UNIT QUIZ: Question 10
+Dumpster diving is a concept most associated with:
+Firewalls
+IDS/IPS
+DPI/DCI
+*Social Engineering

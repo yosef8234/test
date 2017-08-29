@@ -1,0 +1,67 @@
+MALWARE AND FORENSICS UNIT QUIZ
+
+UNIT QUIZ: Question 1
+Which of these forms of malware can spread by itself across networks?
+Virus
+*Worm
+Trojan Horse
+Backdoor
+
+UNIT QUIZ: Question 2
+What type of malware is triggered by a certain date, time, or event?
+*Logic Bomb
+Trojan horse
+RAT
+
+UNIT QUIZ: Question 3
+What type of malware hides files, processes, and network connections?
+Adware
+Backdoor
+*Rootkit
+Spyware
+
+UNIT QUIZ: Question 4
+A non-random email containing a malicious link to click, sent to president@mycompany.net, is most accurately described as:
+Phishing
+Spearphishing
+*Whaling
+Pharming
+
+UNIT QUIZ: Question 5
+What are the three main goals of digital forensics? (Select three)
+*Inculpate
+*Exculpate
+*Investigate a cyberattack
+Password recovery
+
+UNIT QUIZ: Question 6
+Which of these is an example of digital evidence? (Select all that apply)
+*Log files
+*Digital Images
+An employee's testimony
+*Email
+
+UNIT QUIZ: Question 7
+What do forensic investigators use to verify that copies are the same, bit-for-bit, as the originals?
+Symmetric encryption
+*Hashing
+Asymmetric encryption
+
+UNIT QUIZ: Question 8
+True or False: Bit-stream copies are done at the filesystem level.
+True
+*False
+
+UNIT QUIZ: Question 9
+Which of the following locations searched by a forensics investigator are non-volatile? (Select all that apply)
+*Slack space
+*Unallocated space
+RAM
+*The NTFS filesystem
+
+UNIT QUIZ: Question 10
+Which of these actions represents the weakest/poorest attempt at anti-forensics by a suspect, and will likely not cause anything to be hidden?
+*Changing a file’s extension
+Changing a file’s header
+Steganography
+Encryption

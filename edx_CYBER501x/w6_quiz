@@ -1,0 +1,68 @@
+SYSTEMS ADMINISTRATION UNIT QUIZ
+
+UNIT QUIZ: Question 1
+Which of these protocols is DHCP modelled after?
+ARP
+RARP
+*BOOTP
+DNS
+
+UNIT QUIZ: Question 2
+When a DHCP server is on a different network than the DHCP client, how does the DHCP server know from which scope to give the client an address?
+The client will specify it
+The client's MAC address will indicate it
+The DHCP server will pick a random scope
+*The relay agent's IP address will indicate it
+
+UNIT QUIZ: Question 3
+True or False: Clients learn who their DNS servers are from their DHCP server.
+*True
+False
+
+UNIT QUIZ: Question 4
+During the DHCP DORA process, the DHCP client uses __________________ as the source IP address when the client sends traffic.
+*0.0.0.0
+255.255.255.255
+The actual address being offered by the DHCP server
+192.168.1.1
+
+UNIT QUIZ: Question 5
+During the DHCP DORA process, the DHCP client uses ___________as the destination IP address when the client sends traffic.
+0.0.0.0
+*255.255.255.255
+The DHCP server’s IP address
+The relay agent’s IP address
+
+UNIT QUIZ: Question 6
+If a client on the rit.edu domain needs the IP address of a website, the client directly queries:
+One of the 13 Root Servers
+An Authoritative TLD DNS Server
+An Authoritative DNS Server for the website
+*The DNS server for the client’s domain
+
+UNIT QUIZ: Question 7
+When a client's DNS server is resolving www.rit.edu to its corresponding IP address, when does the client's DNS server query the authoritative DNS server for the .edu TLD?
+Before querying one of the 13 Root Servers
+*After querying one of the 13 Root Servers
+After querying the authoritiative DNS server for rit.edu
+
+UNIT QUIZ: Question 8
+How many total messages are sent just between the DNS client and the client's DNS server (directly from the client to its server, and from the server to its client, not including any other server), when the client needs a name resolved to its corresponding IP address? Assume there are no cached entries.
+*2
+4
+6
+8
+
+UNIT QUIZ: Question 9
+By default (without configuring your networked devices to use an open DNS server like Google's 8.8.8.8 or 8.8.4.4), when your devices at home need FQDNs turned into IP addresses, which server does most of the querying?
+The router in the home
+*The ISP’s DNS server
+The DNS server in the home
+One of the 13 Root Servers
+
+UNIT QUIZ: Question 10
+Which of these devices should use static configuration instead of being set up for DHCP? (Select all that apply)
+*Servers
+Clients
+*Routers
+*Important Resources
