@@ -1,0 +1,110 @@
+The Evolving Risk Landscape Quiz
+
+UNIT 1: Question 1
+Which following asset is one of Computer System Assets?
+Company’s internal web page
+*Network router
+Physical facility
+
+UNIT 1: Question 2
+True or False: The information written on a piece of paper is not important for Information Security.
+True
+*False
+
+UNIT 1: Question 3
+Which of these assets does not exist in Cyberspace?
+*A file cabinet holding paper records
+Control software in a self-driving vehicle
+Web server
+
+UNIT 1: Question 4
+True or False: Cybersecurity is concerned with more than just “information in cyberspace,” because there are information infrastructure and non-information assets in cyberspace, such as connected IoT devices.
+*True
+False
+
+UNIT 1: Question 5
+Which security aspect covers assets such as “devices not-connected in cyberspace”?
+*Computer security
+Cyber security
+Information security
+
+UNIT 1: Question 6
+Which statement best defines “IT Security”?
+IT security is an objective centered on business strategy.
+*IT security is an operational and technical-driven objective. The assets in IT systems are a combination of assets covered by Computer Security, InfoSec, and Cybersecurity.
+IT security is an umbrella term that sums up computer security, information security and cybersecurity.
+
+UNIT 1: Question 7
+Is a standalone copy machine in the hallway that is not connected to a network considered an asset in IT security?
+*Yes
+No
+
+UNIT 1: Question 8
+Which statement is true?
+IT security and Information security are equivalent.
+*IT security is technology-oriented, while Information Security is business-oriented.
+IT security is business-oriented, while Information Security is technology-oriented.
+
+UNIT 1: Question 9
+Which of these statements about Privacy are true? (Select two)
+*Privacy is not the same as Security.
+Privacy is about data encryption.
+*Privacy is an inherent human right to protect personal information.
+
+UNIT 1: Question 10
+Which information is considered “Personal Information”? (Select three)
+*Combination of birthday, gender, and zip code
+Job title alone
+*Medical treatment history with full name, birthday, gender and address
+Last name alone
+*Social Security Number alone
+
+UNIT 1: Question 11
+Threat can be described in terms of the following characteristics:
+*Actor, Motivation, Capability
+Actor, Motivation, Safeguards
+Asset, Vulnerability, Risk
+
+UNIT 1: Question 12
+Which statement is true?
+Risk = Actor + Vulnerability + Controls/Safeguards
+Risk = Asset + Threat + Controls/Safeguards
+*Risk = Asset + Threat + Vulnerability
+
+UNIT 1: Question 13
+Virus and Anti-virus describes the main threat/defense pair during the:
+*1990s
+2000s
+2010s
+
+UNIT 1: Question 14
+What are the key factors behind the “disappearing perimeter”? (Select two)
+*Increase of IoT endpoint devices
+More state-sponsored attacks
+Outdated firewall products
+*Wide adoption of cloud platforms
+
+UNIT 1: Question 15
+Which following are internal cyber security challenges? (Select all that apply)
+Cloud vendor
+*Human beings are still the weakest links
+*Lack of budget
+*Skill gaps
+Terrorist attack
+
+UNIT 1: Question 16
+The cyber defenses have evolved through these following steps in past two decades:
+Prevention, Detection, Respond
+*Protection, Detection, Respond
+Protection, Prevention, Detection
+
+UNIT 1: Question 17
+To achieve security resilience, solutions should directly support:
+Cloud-based backup only
+Disaster recovery only
+*Recovery, agility, usability, automation and learnability
+
+UNIT 1: Question 18
+True or False: Artificial Intelligence and machine learning is the silver bullet for solving cyber security problems.
+True
+*False

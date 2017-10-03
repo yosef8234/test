@@ -1,0 +1,69 @@
+Packet Sniffing Unit Quiz
+
+Unit 1 Question
+Without being in promiscuous mode or monitor mode, and not taking hypervisors into account, when a frame enters a NIC on a computer, if the destination MAC address is not the NIC’s MAC address, a broadcast, or a multicast, what will the NIC do?
+*Drop it
+Flood it
+Send an ARP Request
+Send an ICMP error message
+
+Unit 1 Question
+When a hypervisor on a wireless client receives traffic from a VM, it must:
+*Replace the source MAC address
+Replace the destination MAC address
+Replace the source IP address
+Replace the destination IP address
+
+Unit 1 Question
+Which of the following represents the lowest OSI Model Layer of data that can be read by a packet sniffer?
+Layer 1
+*Layer 2
+Layer 3
+Layer 4
+
+Unit 1 Question
+Which of the following is used for the four-way handshake used by WPA and WPA2 to set up keys used in encrypting traffic between the client and a WAP (wireless access point)?
+TCP
+DNS
+*EAPoL
+DHCP
+
+Unit 1 Question
+Which of these is different on wired LANs than on wireless LANs?
+Segments
+*Frames
+Packets
+Datagrams
+
+Unit 1 Question
+Monitor Mode applies to:
+Only wired NICs
+*Only wireless NICs
+Both wired and wireless NICs
+Neither wired nor wireless NICs
+
+Unit 1 Question
+WinPcap does not support:
+Packet sniffing
+Promiscuous mode, but it does support monitor mode
+Either promiscuous mode or monitor mode
+*Monitor mode, but it does support promiscuous mode.
+
+Unit 1 Question
+What’s the most popular protocol analyzer?
+*Wireshark
+Nmap
+Snort
+Netstat
+
+Unit 1 Question
+True or False: Hypervisors can make a NIC operate differently, by making the NIC accept frames with a unicast destination MAC address that is different than the NIC’s MAC address.
+*True
+False
+
+Unit 1 Question
+Regarding monitor mode sniffing from within virtual machines, which of the following is true?
+VMs do not support any type of packet sniffing
+*It is not possible to sniff in monitor mode from VMs, without a special external adapter.
+Sniffing from VMs is exactly the same as sniffing from a host machine
+It is always possible to sniff in monitor mode from VMs.
