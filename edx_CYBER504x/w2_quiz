@@ -1,0 +1,62 @@
+Password Cracking Unit Quiz
+
+Unit 2 Question
+True or False: Hashes can be precomputed from a dictionary file.
+*True
+False
+
+Unit 2 Question
+True or False: Keystroke logging, phishing, and social engineering attacks work just as well on lengthy, complex passwords as they do on simple ones.
+*True
+False
+
+Unit 2 Question
+True or False: Salt is meant to prevent a password from being guessed.
+True
+*False
+
+Unit 2 Question
+Which of these about passwords and hashes is true?
+Plaintext passwords are longer than hashes
+Hashes are less secure than plaintext passwords
+*Hashes are longer than plaintext passwords
+Hashes are always the same length as their corresponding plaintext passwords
+
+Unit 2 Question
+True or False: Which of the following is a program that you would use for a brute force attack?
+M&Ms
+*Crunch
+Kit Kat
+Hershey Bar
+
+Unit 2 Question
+Passwords today should be stored in a database as:
+Plaintext
+MD5 hash
+SHA-1 hash
+*SHA-256 or SHA-512 hash
+
+Unit 2 Question
+Which of these is the largest dictionary file?
+thechampions.txt
+bohemianrhapsody.txt
+*rockyou.txt
+bitesthedust.txt
+
+Unit 2 Question
+In a rainbow table, a stolen password hash is initially compared to:
+The beginning part of a chain
+The middle part of a chain
+*The ending part of a chain
+
+Unit 2 Question
+True or False: When an attacker wants to break a single password with a brute force or dictionary attack, salts offer no protection.
+*True
+False
+
+Unit 2 Question
+When a hacker has a valid username and enters passwords at a login prompt (manually or through automation) to gain access to an account, it is called:
+Rainbow Table Attack
+Dictionary Attack
+*Password Guessing
+Brute Force Attack
