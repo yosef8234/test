@@ -1,0 +1,71 @@
+Unit 3 Quiz
+
+Unit 3: Question 1
+Which of the following is not an abstraction layer of the file system in Sleuthkit?
+Data Layer
+File System Layer
+Meta-data Layer
+*Network Layer
+Physical Layer
+
+Unit 3: Question 2
+In an ext2 filesystem, if a file is deleted and its inode content is still intact, are you able to recover the file’s data block addresses?
+*You can recover the file's data block addresses
+You can nerver recover the file's data block addresses
+Sometimes you can, sometimes you cannot.
+
+Unit 3: Question 3
+To list all of the inodes of deleted files, you can use: (Select two.)
+blkcat
+blkls
+*fls
+*ils
+
+Unit 3: Question 4
+Given a data block number, which tool will map the block number to its correspondent inode number?
+istat
+icat
+ifind
+ils
+
+Unit 3: Question 5
+Given an image file and the offset where a partition starts, which command is the best to get the block size and the file system type of the partition?
+fdisk
+file
+*fsstat
+strings
+
+Unit 3: Question 6
+Which of these commands will list all of the partition information of a hard drive defined in the Master Boot Record? (Select two.)
+*fdisk
+find
+fsstat
+*mmls
+
+Unit 3: Question 7
+In Linux ext file systems, a file’s data block addresses/numbers are stored in
+the file’s parent directory
+the superblock of the file system
+*the file's inode
+the file's data content
+
+Unit 3: Question 8
+In Linux ext file systems, the mapping between a filename to its inode is stored in _______.
+the file's inode
+the superblock of the file system
+the file's datablocks
+*the file's parent directory's datablocks
+
+Unit 3: Question 9
+Superblock contains following information: (Select all that apply.)
+*Total number of inodes and blocks
+What data is kept in each data block
+*Number of free disk blocks and number of free inodes
+*Block size
+
+Unit 3: Question 10
+Which of the following is not a true statement about the master boot record (MBR)?
+MBR is 512 bytes in total
+MBR contains partition information
+MBR identifies the active partition
+*MBR can support up to 128 primary petitions on a disk
