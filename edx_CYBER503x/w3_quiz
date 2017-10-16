@@ -1,0 +1,98 @@
+The formula for determining adverse impact is:
+Impact = Likelihood * Value
+
+When determining threat likelihood, most processes look at a timeframe of:
+One year
+
+Single Loss Expectancy (SLE) is:
+The total amount of revenue that is lost from a single occurrence of the risk
+
+The Annual Rate of Occurrence (ARO) is:
+The number of times an organization can reasonably expect the risk to occur during one year
+
+Annual Loss Expectancy (ALE) is:
+The total amount of money an organization will lose in one year if nothing is done to mitigate the risk
+
+Risk Management 2 Quiz
+
+UNIT 3: Question 1
+What are some sources to identify vulnerabilities? (Select all that apply)
+*Existing security requirement checklists
+*Previous risk assessment documents
+*Reports from vulnerability scanning tools and penetration tests
+*External vulnerability sources
+
+UNIT 3: Question 2
+Likelihood is:
+The probability that a threat will occur
+*The probability that a threat will occur against a vulnerability with existing controls in place
+The probability that a vulnerability will be exploited
+
+UNIT 3: Question 3
+What is the formula for Impact Analysis?
+ALE (Annual Loss Expectance) = SLE * ARO (Annual Rate of Occurrence)
+*Magnitude of Risk Impact = Likelihood * Asset Value
+Single Loss Expectance (SLE) = Exposure Factor * Asset Value
+
+UNIT 3: Question 4
+Which is the correct formula for cost-benefit analysis in the risk mitigation phase?
+ROSI = (ALE after control) – (ALE before control) – (annual cost of control)
+ROSI = (ALE after control) – (ALE before control) – (asset value)
+*ROSI = (ALE before control) – (ALE after control) – (annual cost of control)
+
+UNIT 3: Question 5
+What are the two key components of risk?
+Asset, Likelihood
+*Magnitude of impact value, Likelihood
+Threat, Magnitude of impact value
+
+UNIT 3: Question 6
+The well-formed risk statement always contains: (Select three)
+*Asset value
+*Existing controls
+Single Loss Expectance (SLE)
+Return On Security Investment (ROSI)
+*Vulnerability-Threat pair
+
+UNIT 3: Question 7
+Which statement is not true about vulnerability?
+Vulnerability is a weakness in the system.
+*Vulnerability focuses on “what you are afraid of or are trying to avoid”
+Vulnerability focuses on “how the threat could occur”
+
+UNIT 3: Question 8
+The Risk Matrix is a conventional qualitative risk assessment method that requires consistent definitions for: (Select three)
+*Asset exposure level for vulnerability-threat pair
+*Impact levels or effects
+*Likelihood levels
+Annual Loss Expectance (ALE)
+
+UNIT 3: Question 9
+Risk mitigation attempts to reduce risk by: (Select three)
+Constant system monitoring
+Limiting the asset exposure to the risk
+Limiting the impact of the risk if it does occur
+Reducing the probability or likelihood of the risk affecting your business
+
+UNIT 3: Question 10
+Based on the material contained in this unit, which measure or control is preventive?
+Access control
+Intrusion Detection
+Penetration test
+*Vulnerability scanning
+
+UNIT 3: Question 11
+Based on the material contained in this unit, which measure or control is detective?
+Access control
+Firewall
+*Intrusion Detection System (IDS)
+Secure coding
+
+UNIT 3: Question 12
+Which items are key success factors for risk management? (Select four)
+Acquiring the most advanced technical solutions in the market
+*Assembling a right team with right mixture of expertise
+*Customizing the basic risk management principles to your organization context
+*Focusing on “business needs” not the “technology excellence”
+*Keeping the risk assessment process as simple as possible
+Supporting all standards as possibles

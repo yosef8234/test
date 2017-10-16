@@ -1,0 +1,76 @@
+The TCP header contains:
+Six standard flags and three specialty flags
+
+True or false: After an initial TCP connection is established, the system acknowledges a randomized sample of data to ensure delivery.
+True
+
+Port Scanning Unit Quiz
+
+Unit 3 Question
+What’s the most popular port scanning tool?
+*nmap
+netcat
+netstat
+nbtstat
+
+Unit 3 Question
+What is the main purpose of port scanning?
+To find hosts in a network
+To collect password hashes
+*To discover what programs and services are running on a machine
+To collect MAC addresses of hosts in a network
+
+Unit 3 Question
+After conducting a port scan, you could possibly be found in violation of:
+Sarbanes–Oxley
+Freedom of Information Act
+HIPAA
+*Computer Fraud and Abuse Act
+
+Unit 3 Question
+How many steps does it take TCP to establish a connection between source and destination?
+1
+2
+*3
+4
+
+Unit 3 Question
+Which of the following, in response to an ACK scan, indicates that a port is unfiltered?
+*RST
+ICMP error message
+No response
+
+Unit 3 Question
+Which order represents the sequence of the TCP Three Way Handshake?
+*SYN, SYN/ACK, ACK
+SYN, SYN, SYN/ACK
+ACK, SYN/ACK, SYN
+SYN, ACK, SYN/ACK
+
+Unit 3 Question
+The possible classifications of a port from a UDP scan are: (Each classification is separated by a comma)
+*Open, open or filtered, closed
+Open or filtered, closed
+Open, closed, filtered
+Filtered, unfiltered
+
+Unit 3 Question
+Which scan would be most appropriate for a machine that you suspect is a DNS server?
+*UDP
+Connect
+ACK
+SYN
+
+Unit 3 Question
+Which of the following statements is false?
+Ports on Windows machines will always send an RST to a Null scan, regardless if they are open or closed.
+A Null scan consists of an abnormally formed TCP header.
+An Xmas Tree scan will report an actual open port as being open or filtered.
+*A FIN scan can determine with 100% certainty that a port is open.
+
+Unit 3 Question
+How do open ports respond to a SYN scan?
+SYN
+*SYN/ACK
+RST
+No response
